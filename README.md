@@ -18,6 +18,6 @@ Think about what endpoints an interface like this will need to do its job, and b
 - Code style & file structure is up to you, but make sure it is consistent and easy to understand
 
 ## Checklist for Challenge
-[ ] Build API endpoints for Fat Lama messaging interface
-[ ] Ensure all code is sufficiently tested
-[ ] Write brief summary on the approach you took and the tools you used (max 500 words)
+- [ ] Build API endpoints for Fat Lama messaging interface
+- [ ] Ensure all code is sufficiently tested
+- [ ] Write brief summary on the approach you took and the tools you used (max 500 words)
