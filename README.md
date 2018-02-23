@@ -1,13 +1,15 @@
 # Backend Challenge
-Fat Lama relies heavily on our messaging system for users to be able to communicate with each other before and during rentals. For this challenge, we would like you to build a backend database and API for Fat Lama’s messaging system. Here is the interface that will be consuming your API:
+## Introduction
+Fat Lama relies heavily on our search in order for users to be able to find the items they need. The main two factors in the search are:
+- *Text match*: the user types a word or phrase that they want to find, and the search returns items that match this.
+- *Location*: the user indicates their location (through geolocation or through typing in the location search box) and the search returns items near the user
 
-![message interface](https://i.imgur.com/6bS889z.png)
+On the production web & mobile app there are other factors that come into play such as lender rating, response time, categories, time since listing, and more. For this challenge though, we want you to focus only on the two main factors given above.
 
-Think about what endpoints an interface like this will need to do its job, and build them. Assume that auth is taken care of - you don't need to worry about this. Please think carefully about your technology and architecture, and when you are finished, write up a short summary of why you made the choices you did. This should be no more than 500 words.
+## The Challenge
+We want you to build a `/search` endpoint that will return the most appropriate 20 items given `searchTerm`, `lat` (latitude) and `lng` (longitude). It is up to you to decide how to weight the two factors to return the most relevant results. We have provided you with a sqlite database containing just under 2000 items with the relevant fields.
 
-## Features that are stretch goals (you will not lose points for not doing these): 
-- Search for user/item by name
-- Read receipts & live updating
+When you are finished, write up a short summary of why you made the choices you did. This should be no more than 500 words.
 
 ## Things to think about:
 - Don’t try to reverse-engineer the way that we’ve actually built this feature. Ours is not necessarily the best way to do it, and we want to see what you come up with by yourself.
@@ -18,6 +20,6 @@ Think about what endpoints an interface like this will need to do its job, and b
 - Code style & file structure is up to you, but make sure it is consistent and easy to understand
 
 ## Checklist for Challenge
-- [ ] Build API endpoints for Fat Lama messaging interface
+- [ ] Build API endpoint for Fat Lama search
 - [ ] Ensure all code is sufficiently tested
 - [ ] Write brief summary on the approach you took and the tools you used (max 500 words)
