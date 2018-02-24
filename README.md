@@ -7,16 +7,15 @@ Fat Lama relies heavily on our search in order for users to be able to find the 
 On the production web & mobile app there are other factors that come into play such as lender rating, response time, categories, time since listing, and more. For this challenge though, we want you to focus only on the two main factors given above.
 
 ## The Challenge
-We want you to build a `/search` endpoint that will return the most appropriate 20 items given `searchTerm`, `lat` (latitude) and `lng` (longitude). It is up to you to decide how to weight the two factors to return the most relevant results. We have provided you with a sqlite database containing just under 2000 items with the relevant fields.
+We want you to build a `/search` endpoint that will return the most appropriate 20 items given `searchTerm`, `lat` (latitude) and `lng` (longitude). e.g. `/search?searchTerm=camera&lat=51.948&lng=0.172943`. It is up to you to decide how to weight the two factors to return the most relevant results. We have provided you with a sqlite database containing just under 2000 items with the relevant fields.
 
-When you are finished, write up a short summary of why you made the choices you did. This should be no more than 500 words.
+When you are finished, write up a short summary of why you made the choices you did in terms of technology and design. This should be no more than 500 words.
 
 ## Things to think about:
-- Don’t try to reverse-engineer the way that we’ve actually built this feature. Ours is not necessarily the best way to do it, and we want to see what you come up with by yourself.
-- Think about 
+- Think about points of failure and how your endpoint will perform under load.
 - Testing: use whatever tools you prefer to test your code appropriately
 - Try to implement appropriate [separation of concerns](https://effectivesoftwaredesign.com/2012/02/05/separation-of-concerns/) & modular code
-- Think hard about naming of functions and variables
+- Think hard about naming of functions and variables. Your code must be readable
 - Code style & file structure is up to you, but make sure it is consistent and easy to understand
 
 ## Checklist for Challenge
