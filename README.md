@@ -13,6 +13,7 @@ When you are finished, write up a short summary of why you made the choices you 
 
 ## Things to think about:
 - Think about points of failure and how your endpoint will perform under load.
+- Language/frameworks: up to you, but please explain your choices in the summary
 - Testing: use whatever tools you prefer to test your code appropriately
 - Try to implement appropriate [separation of concerns](https://effectivesoftwaredesign.com/2012/02/05/separation-of-concerns/) & modular code
 - Think hard about naming of functions and variables. Your code must be readable
