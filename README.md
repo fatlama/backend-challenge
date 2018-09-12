@@ -1,6 +1,6 @@
 # Backend Challenge
 ## Introduction
-Fat Lama relies heavily on our search in order for users to be able to find the items they need. The main two factors in the search are:
+Fat Llama relies heavily on our search in order for users to be able to find the items they need. The main two factors in the search are:
 - **Text match**: the user types a word or phrase that they want to find, and the search returns items that match this.
 - **Location**: the user indicates their location (through geolocation or through typing in the location search box) and the search returns items near the user
 
@@ -21,7 +21,7 @@ When you are finished, write up a short summary of why you made the choices you 
 
 ## Checklist for Challenge
 - [ ] Duplicate this repo (please do not fork it, see [instructions](https://help.github.com/articles/duplicating-a-repository/)). Bitbucket offers free private repos if you don't want to use a public one.
-- [ ] Build API endpoint for Fat Lama search with according to above specifications
+- [ ] Build API endpoint for Fat Llama search with according to above specifications
 - [ ] Ensure all code is sufficiently tested
 - [ ] Write brief summary on the approach you took and the tools you used (max 500 words)
 - [ ] Include instructions on how to build/ run your solution
