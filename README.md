@@ -20,7 +20,7 @@ When you are finished, write up a short summary of why you made the choices you 
 - Code style & file structure is up to you, but make sure it is consistent and easy to understand
 
 ## Checklist for Challenge
-- [ ] Duplicate this repo (please do not fork it, see [instructions](https://help.github.com/articles/duplicating-a-repository/)). Bitbucket offers free private repos if you don't want to use a public one.
+- [ ] Duplicate this repo (please do not fork it, see [instructions](https://help.github.com/articles/duplicating-a-repository/)). Bitbucket offers free private repos if you don't want to use a public one. Please do not name your repo 'fat llama' or anything similar (we don't want future candidates copying your code).
 - [ ] Build API endpoint for Fat Llama search with according to above specifications
 - [ ] Ensure all code is sufficiently tested
 - [ ] Write brief summary on the approach you took and the tools you used (max 500 words)
