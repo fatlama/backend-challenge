@@ -22,7 +22,7 @@ The schema for the items returned should be:
 }
 ```
 
-You are provided with two csvs containing approximately 1000 items and 1000 users. Its is up you how your API handles these.
+You are provided with two csvs containing approximately 1000 items and 300 users. Its is up you how your API handles these.
 
 When you are finished, write up a short summary of why you made the choices you did in terms of technology and design. This should be no more than 500 words.
 
