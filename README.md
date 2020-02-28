@@ -13,7 +13,7 @@ We want you to build a `GET /search` endpoint that will return the most appropri
 The data returned should be sufficient for the frontend to construct the following item card:
 ![alt text](https://fat-lama-assets.s3-eu-west-1.amazonaws.com/itemCard.png "Item card")
 
-You are provided with two csvs containing approximately 1000 items and 300 users. Its is up you how your API handles these.
+You are provided with two csvs containing approximately 1000 items and 300 users. It is up you how your API handles these.
 
 When you are finished, write up a short summary of why you made the choices you did in terms of technology and design. This should be no more than 500 words.
 
